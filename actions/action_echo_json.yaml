@@ -1,0 +1,16 @@
+---
+name: action_echo_json
+description: "Echoes phrase of the day and JSON content"
+runner_type: orquesta
+entry_point: workflows/workflow-echo-json.yaml
+enabled: true
+parameters:
+  phrase_of_day:
+    type: string
+    description: "Phrase to echo"
+    required: true
+    default: "{{ config_context.phrase4echo }}"
+  json_data:
+    type: object
+    required: true
+    description: "JSON payload which we receive via webhook"

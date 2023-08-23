@@ -1,7 +1,7 @@
 ---
 name: rule2run-echo
 description: "Launches an action to echo phrase of the day"
-enabled: true
+enabled: false
 
 trigger:
   description: "Triggers on specified intervals"

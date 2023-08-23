@@ -1,0 +1,16 @@
+---
+name: rule2run-echo
+description: "Launches an action on webhook activation"
+enabled: true
+
+trigger:
+  description: "Webhook to trigger an action"
+  type: core.st2.webhook
+  parameters:
+    url: "sergey/tutorial"
+
+action:
+  ref: st2webhook_test.action_echo_json
+  description: "Use the defined action to echo the phrase and json content"
+  parameters:
+    json_data: "{{ trigger.body }}"
