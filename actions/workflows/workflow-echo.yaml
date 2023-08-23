@@ -1,0 +1,11 @@
+version: 1.0
+
+input:
+  - phrase_of_day
+
+tasks:
+  echo_the_phrase:
+    action: core.echo
+    input:
+      message: |
+        The phrase of day today is: {{ ctx().phrase_of_day }}

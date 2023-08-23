@@ -1,0 +1,15 @@
+---
+name: rule2run-echo
+description: "Launches an action to echo phrase of the day"
+enabled: true
+
+trigger:
+  description: "Triggers on specified intervals"
+  type: core.st2.IntervalTimer
+  parameters:
+    unit: "seconds"
+    delta: 15
+
+action:
+  ref: st2webhook_test.
+  description: "Use the defined action to echo the phrase"

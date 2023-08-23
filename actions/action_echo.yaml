@@ -1,0 +1,12 @@
+---
+name: action_echo
+description: Echoes phrase of the day
+runner_type: orquesta
+entry_point: workflows/workflow-echo.yaml
+enabled: true
+parameters:
+  phrase_of_day:
+    type: string
+    description: "Phrase to echo"
+    required: true
+    default: "{{ config_context.phrase4echo }}"

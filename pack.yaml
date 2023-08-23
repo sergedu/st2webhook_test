@@ -1,0 +1,15 @@
+---
+ref: st2webhook_test
+name: StackStorm webhook training pack
+descriptions: A training pack containing actions, workflows and rules
+keywords:
+    - traning
+    - tutorial
+
+version: 1.0.0
+
+author: Sergey Dudko
+
+email: s_dudko@yahoo.com
+dependencies:
+  - core

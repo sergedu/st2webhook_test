@@ -1,0 +1,6 @@
+---
+  phrase4echo:
+    description: "Phrase to display in the st2 history log as part of this tutorial"
+    type: string
+    default: "Hello ST2 student"
+    required: true
