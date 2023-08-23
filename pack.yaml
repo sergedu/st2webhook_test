@@ -1,7 +1,7 @@
 ---
 ref: st2webhook_test
 name: StackStorm webhook training pack
-descriptions: A training pack containing actions, workflows and rules
+description: A training pack containing actions, workflows and rules
 keywords:
     - traning
     - tutorial
