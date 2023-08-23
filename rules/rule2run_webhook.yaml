@@ -1,5 +1,5 @@
 ---
-name: rule2run-echo
+name: rule2run-echo_webhook
 description: "Launches an action on webhook activation"
 enabled: true
 
