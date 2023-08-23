@@ -11,5 +11,5 @@ trigger:
     delta: 15
 
 action:
-  ref: st2webhook_test.
+  ref: st2webhook_test.action_echo
   description: "Use the defined action to echo the phrase"
