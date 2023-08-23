@@ -16,7 +16,7 @@ tasks:
     input:
       message: |
         The JSON payload is: 
-           - policy ID: {{ ctx().json_payload.policyId }}
-           - group name: {{ ctx().json_payload.groupName }}
-           - alert ID: {{ ctx().json_payload.alertId }}
-           - JSON payload AS IS: {{ ctx().json_payload }}
+            policy ID: {{ ctx().json_payload.policyId }}
+            group name: {{ ctx().json_payload.groupName }}
+            alert ID: {{ ctx().json_payload.alertId }}
+            JSON payload AS IS: {{ ctx().json_payload }}
