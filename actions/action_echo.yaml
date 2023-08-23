@@ -1,6 +1,6 @@
 ---
 name: action_echo
-description: Echoes phrase of the day
+description: "Echoes phrase of the day"
 runner_type: orquesta
 entry_point: workflows/workflow-echo.yaml
 enabled: true
